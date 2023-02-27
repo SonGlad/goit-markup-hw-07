@@ -75,7 +75,9 @@ p{
 .container {
    min-width: 320px;
    margin: 0 auto;
-   max-width: 396px;
+   max-width: 428px;
+   padding: 0 16px;
+   
 
     outline: 2px solid red;
     outline-offset: -2px;
@@ -83,7 +85,7 @@ p{
 
 @media screen and (min-width: 768px) {
     .container{
-        max-width: 736px;
+        max-width: 768px;
     }
 }
 
