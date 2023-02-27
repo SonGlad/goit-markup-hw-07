@@ -529,10 +529,17 @@ p{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 16px;
+    column-gap: 16px;
+    row-gap: 72px;
 }
 
 @media screen and (min-width: 768px){
+    .customers-list{
+        column-gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px){
     .customers-list{
         gap: 24px;
     }
