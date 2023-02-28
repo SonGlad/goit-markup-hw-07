@@ -843,28 +843,24 @@ p{
 
 .card-sec{
     background-color: var(--color-white); 
-    width: 396px;
-    height: 400px;
-    
+    max-width: 396px; 
 } 
 
 @media screen and (min-width: 768px){
     .card-sec{
-        width: 356px;
-        height: 420px;
-    }
+        max-width: 356px;
+        }
 }
 
 @media screen and (min-width: 1200px){
     .card-sec{
-        width: 360px;
+        max-width: 360px;
     }
 }
 
 .card-sec-link{
     display: inline-block;
-    width: 396px;
-    height: 400px;
+    max-width: 396px;
     border: 1px solid #E7E9FC;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     transition: border var(--tarns), box-shadow var(--tarns);
@@ -873,13 +869,12 @@ p{
 @media screen and (min-width: 768px){
     .card-sec-link{
         max-width: 356px;
-        height: 420px;
-    }
+        }
 }
 
 @media screen and (min-width: 1200px){
     .card-sec-link{
-        min-width: 360px;
+        max-width: 360px;
     }
 }
 
