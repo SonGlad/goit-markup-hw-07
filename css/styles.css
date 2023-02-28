@@ -843,19 +843,6 @@ p{
 
 .card-sec{
     background-color: var(--color-white); 
-    max-width: 396px; 
-} 
-
-@media screen and (min-width: 768px){
-    .card-sec{
-        max-width: 356px;
-        }
-}
-
-@media screen and (min-width: 1200px){
-    .card-sec{
-        max-width: 360px;
-    }
 }
 
 .card-sec-link{
