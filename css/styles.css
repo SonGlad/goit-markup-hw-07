@@ -537,7 +537,7 @@ p{
         display: none;}
     }
 
-@media screen and (min-width: 758px){
+@media screen and (min-width: 768px){
     .desc-text{
         max-width: 356px;
     }
@@ -619,7 +619,6 @@ p{
 
 @media screen and (min-width: 1200px){
     .team-section-desc{
-        flex-direction: row;
         justify-content: space-between;
         gap: 24px;
     }
@@ -641,6 +640,7 @@ p{
     line-height: calc(24 / 20);
     text-align: center;
     margin-bottom: 8px;
+    color: var(--color-slate);
 }
 .team-desc-text{
     font-weight: 400;
@@ -1066,7 +1066,7 @@ p{
     transition: background-color var(--tarns);
 }
 
-.footer-socials-icons{
+.footer-socials-icons{  
     fill: var(--color-cloud);
 }
 .footer-socials-link:hover,
@@ -1102,7 +1102,6 @@ p{
 @media screen and (min-width: 768px){
     .footer-form{
         display: flex;
-        align-items: end;
     }
 }
 
